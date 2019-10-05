@@ -8,6 +8,7 @@
 `Goal` contains all the information about a certain goal:
 id: (long) - unique id of a goal;
 name: (string) - name of a goal;
+categoryId: (long) - category of a goal
 description: (string) - description of a goal;
 timeSpentSeconds: time spent on a goal in seconds;
 created: (date) - when goal was created;
@@ -15,6 +16,11 @@ updated: (date) - when goal was last updated;
 nextReview: (date) - date of a next review;
 isFocused: (boolean) - is the goal currently focused;
 isLocked: (boolean) - if true this goal cannot be unfocused
+
+#### Category
+`Category` an entity that allows grouping of goals
+id: (long) - unique id of a category
+name: (string) - name of a category
 
 #### Schedule
 `Schedule` contains schedule of a goal
