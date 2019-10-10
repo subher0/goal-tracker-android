@@ -47,7 +47,7 @@ created: (date) - when log was created;
 id: (long) - unique id of a TODO entry;
 name: (string) - name of a TODO entity;
 description: (string) - TODO description;
-priority: (int) - priority of a TODO;
+priority: (int) - priority of a TODO. Can range from 1 to 5;
 timeSpentSeconds: time spent on a TODO entry in seconds;
 created: (date) - when TODO was created;
 updated: (date) - when TODO was last updated;
